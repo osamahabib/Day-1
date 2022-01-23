@@ -1,0 +1,14 @@
+2.
+HTTP1.1 allows only one request per TCP connection whereas HTTP2 allows multiple parallel requests over the same TCP connection
+For fast HTTP1.1 connection, browsers do multiple parallel requests but that causes more duplicate data across requests. To solve this problem HTTP2 does Header compression using HPACK to reduce data redundancy.
+Another advantage of HTTP2 over HTTP1.1 is that the server can 'push' reources it believes would be required by the client.
+
+3.
+An Object in JavaScript forms the building blocks of modern JavaScript. It is different from primitive datatype as it can be combination of primitive datatype as well as reference datatype. They can be understood as "key:value" pair combination. The key can be variables or functions and are called properties and methods respectively. Eg of an object:
+
+var myCar = new Object();
+myCar.make = 'Tata';
+myCar.model = 'Tigor';
+myCar.year = 2019;
+
+We used the 'new' keyword to declare an Object and made properties like make,model and year. We use the dot(.) operator to access properties of an Object in JavaScript.
